@@ -1,0 +1,51 @@
+.Nav{
+    width: 99vw;
+    height: 5rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+    width: 10rem;
+}
+
+.Link{
+    text-decoration: none;
+    color: #000;
+    margin: .5rem;
+    text-align: start;
+}
+
+.Link:hover{
+    color: #c02260;
+}
+
+#linker{
+    margin-left: 3rem;
+}
+
+#logo-holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3rem;
+}
+
+#free-trial{
+    color: white;
+    background-color: #2e0546;
+    padding: .5rem;
+    border-radius: 50px;
+    border: 1px solid #2e0546;
+    font-size: 1rem;
+    margin-right: 2rem;
+    transition: .4s;
+}
+
+#free-trial:hover{
+    color: #2e0546;
+    background: white;
+    border: 1px solid #2e0546;
+}

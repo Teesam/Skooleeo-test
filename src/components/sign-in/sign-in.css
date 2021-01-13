@@ -1,0 +1,89 @@
+.Sign-in{
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+#top{
+    width: 100vw;
+    height: 5rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#sign-logo{
+    margin-left: 2rem;
+    width: 10rem;
+}
+
+.Sign-input-holder{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 1rem;
+}
+
+.Sign-input{
+    width: 20rem;
+    padding: .5rem 1rem;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+.Sign-input-div{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+#middle{
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#login-submit{
+    color:white;
+    background-color: #3f075f;
+    border-radius: 50px;
+    border: 1.5px solid #3f075f;
+    width: 22rem;
+    height: 2rem;
+    margin-top: 1rem;
+    transition: .4s;
+    margin-top: 1rem;
+}
+
+#login-submit:hover{
+    background-color: white;
+    color: #3f075f;
+    border: 1px solid #3f075f;
+    cursor: pointer;
+}
+
+.Sign-link{
+    text-decoration: none;
+    color: #3f075f;
+    text-align: start;
+    margin-top: 1rem;
+}
+
+.Sign-link:hover{
+    color: #bb2589;
+}
+
+#sign-rights{
+    text-align: start;
+    margin-top: 3rem;
+    /* position: absolute;
+    bottom: 3rem; */
+}
